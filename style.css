@@ -1,11 +1,20 @@
 body {
 	
 	background-color: #000000 ;
-	font-family: "Century Gothic","Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	font-family: "Century Gothic",Trebuchet MS, Arial, Helvetica, sans-serif;
 	margin: 0px;
 	padding: 0px;
 	top: 0px;
 	bottom: 0px;
+}
+body h2 {
+	color: #910000;
+	font-size: 24px;
+}
+body h3 {
+	color: #181818;
+	font-size: 22px;
+	font-weight: normal;
 }
 
 #nav li {
