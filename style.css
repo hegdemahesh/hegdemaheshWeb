@@ -16,6 +16,22 @@ body h3 {
 	font-size: 22px;
 	font-weight: normal;
 }
+#contentResume  {
+	color: #dedede;
+
+}
+
+#contentResume  h2{
+	color: #e5ff96;
+	font-weight: normal;
+
+}
+#contentResume  h3{
+	color: #00e260;
+	font-size: 18px;
+
+}
+
 #customers li {
 	background: url("web/seperatorClient.png") no-repeat scroll right top transparent;
     float: left;
