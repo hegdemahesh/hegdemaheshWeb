@@ -32,6 +32,11 @@ body h3 {
 
 }
 
+#contentResume  p,ol,ul{
+	font-size: 14px;
+
+}
+
 #customers li {
 	background: url("web/seperatorClient.png") no-repeat scroll right top transparent;
     float: left;
