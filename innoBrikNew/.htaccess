@@ -1,0 +1,8 @@
+RewriteEngine off
+<IfModule mod_suphp.c>
+	suPHP_ConfigPath /home/anunav/public_html/innobrik.com/php.ini
+	<Files php.ini>
+		order allow,deny
+		deny from all
+	</Files>
+</IfModule>

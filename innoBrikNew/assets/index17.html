@@ -1,0 +1,828 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<title>InnoBrik Software Technologies Private Ltd</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+<meta name="keywords" content="HVAC animation, Rich internet appication development, 
+3d Interactive animation, Rich data Visualization, flash development, flex development,3d walkthrough,
+
+Flex development, Flex Developer, faility dashboard"/>
+
+<meta name="description" content="Rich internet application development 
+
+company based in Bangalore providing high quiality dashboard development services"/>
+
+<meta name="author" content="InnoBrik Software Technologies Private Ltd" />
+
+<meta name="designer" content="InnoBrik Software Technologies Private Ltd, Maheshchandra Hegde" />
+
+<meta name="publisher" content="InnoBrik Software Technologies Private Ltd" />
+
+<meta name="copyright" content="2011 innoBrik.com" />
+
+<meta name="distribution" content="Global" />
+
+<meta name="document-classification" content="Software development, Rich Internet Applications" />
+
+<meta name="document-type" content="Public" />
+
+<meta name="revisit-after" content="1 days" />
+
+<meta name="robots" content="all" />
+
+
+<meta name="rating" content="Safe for Kids" />
+
+<link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+
+<script type="text/javascript" src="jquery-1.6.2.js"></script>
+
+<script src="jquery.url.min.js"></script>
+<script src="jquery.timer.js"></script>
+
+
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+
+<link href="dropdown.css" rel="stylesheet" type="text/css" media="screen" />
+
+<link href="default.advanced.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+<script  type="text/javascript">
+
+	var currentSlide = 1;
+
+	var subSlide = 1;
+
+	var running =  true;
+	var focused = true;
+	setSubSlides();
+
+	$(document).ready(function(){
+
+			$("#content2").css("left","920px");
+
+			$("#content3").css("left","1840px");
+
+			
+
+		$("#next").click(function(){
+
+			running = false;
+
+			forwardSlide();
+
+		});
+
+		$("#prev").click(function(){
+
+			running = false;
+
+			backwardSlide();
+
+		});
+		
+		var t1= window.setInterval('autoScroll()', 8000);
+		var t2=window.setInterval('subScroll()', 3000);
+		
+		window.addEventListener('focus', function() {
+			focused = true;
+			window.clearInterval(t1);
+			t1 = window.setInterval('autoScroll()', 8000);
+		},false);
+
+		window.addEventListener('blur', function() {
+			focused = false;
+			window.clearInterval(t1);
+		},false);
+		
+		
+
+	
+
+	});
+
+	function setSubSlides(){
+
+		if (subSlide == 1){
+
+			$("#subBanner1").show();
+
+			$("#subBanner2").hide();
+
+			$("#subBanner3").hide();
+
+			$("#subBanner4").hide();
+
+			$("#subBanner5").hide();
+
+		}
+
+		else if (subSlide == 2){
+
+			$("#subBanner2").show();
+
+			$("#subBanner1").hide();
+
+			$("#subBanner3").hide();
+
+			$("#subBanner4").hide();
+
+			$("#subBanner5").hide();
+
+		
+
+		}
+
+		else if (subSlide == 3){
+
+			$("#subBanner3").show();
+
+			$("#subBanner1").hide();
+
+			$("#subBanner2").hide();
+
+			$("#subBanner4").hide();
+
+			$("#subBanner5").hide();
+
+		
+
+		}
+
+		else if (subSlide == 4){
+
+			$("#subBanner4").show();
+
+			$("#subBanner1").hide();
+
+			$("#subBanner3").hide();
+
+			$("#subBanner2").hide();
+
+			$("#subBanner5").hide();
+
+		
+
+		}
+
+		else if (subSlide == 5){
+
+			$("#subBanner5").show();
+
+			$("#subBanner1").hide();
+
+			$("#subBanner3").hide();
+
+			$("#subBanner4").hide();
+
+			$("#subBanner2").hide();
+
+		
+
+		}
+
+	}
+
+	function subScroll(){
+
+		if (subSlide == 5){
+
+			subSlide = 0;
+
+		}
+
+		subSlide = subSlide+1;
+
+		setSubSlides();
+
+	}
+
+	function scrollUp(){
+
+		$('html,body').animate({
+
+		scrollTop: $("#logoImage").offset().top
+
+		}, 1200);
+
+	}
+
+	function autoScroll()
+
+		{
+
+			if ( running == true){
+				forwardSlide();
+				
+
+			}
+
+			else {
+
+				running = true;
+
+			}
+
+			
+
+		}
+
+	function forwardSlide() {
+
+			if (currentSlide == 1){
+
+				$("#bannerContent").animate({left: "-920px"},1200);
+
+				currentSlide = 2;
+
+				
+
+			}
+
+			else if (currentSlide == 2){
+
+				$("#bannerContent").animate({left: "-1840px"},1200);
+
+				currentSlide = 3;
+
+			}
+
+			else if (currentSlide == 3){
+
+				$("#bannerContent").animate({left: "0px"},1200);
+
+				currentSlide = 1;
+
+			}
+
+		}
+
+	function backwardSlide() {
+
+		if (currentSlide == 3){
+
+				$("#bannerContent").animate({left: "-920px"},1200);
+
+				currentSlide = 2;
+
+			}
+
+			else if (currentSlide == 1){
+
+				$("#bannerContent").animate({left: "-1840px"},1200);
+
+				currentSlide = 3;
+
+			}
+
+			else if (currentSlide == 2){
+
+				$("#bannerContent").animate({left: "0px"},1200);
+
+				currentSlide = 1;
+
+			
+
+			}
+
+	
+
+	}
+
+</script>
+
+<!--[if lte IE 6]>
+
+<style type="text/css">
+
+
+
+img, div { behavior: url(iepngfix.htc); }
+
+
+
+#mainframe   {
+
+	visibility: hidden;
+
+
+
+}
+
+
+
+</style>
+
+<![endif]-->
+
+ 
+</head>
+
+
+<body>
+
+<div  id = "logoImage">
+
+	<div id="logoHolder">
+
+		<img src="assets/logo.png" />
+
+	</div>
+
+</div>
+
+ 
+
+
+
+<div id= "bannerBg">
+
+	<div id="banner" >
+
+		<div width="920px" height= "480px" class="adImage">
+
+			<img src="assets/bubbles.png" />
+
+		</div>
+
+			
+
+		<div id="bannerContent" width="920px" height="480px">
+
+			<div id="content1" class="content">
+
+				<div  class="SliderTextContent">
+
+					<h1>Rich User Interface development services</h1>
+
+					<p>At Innobrik technologies we strive hard to create visually rich, user friendly data visualization applications. Having successfully developed state of the art data visualization applications for many reputed companies in the recent past, our designers and developers have shown that they can compete with the best in the industry.</p>
+
+					<p>Our Services include; 
+
+						<br/>
+
+						<ul>
+
+							<li>RIA development</li>
+
+							<li>IPhone application development</li>
+
+							<li>Interactive animations</li>
+
+							<li>Facility management applications</li>
+
+						</ul>
+
+						
+
+						<p>Do You want to know more?...<a href="contact.html">Contact Us..</a></p>
+
+						
+
+					</p>	
+
+				</div>
+
+				<div class="bannerImage">
+
+					<img src="assets/slider1.png">
+
+				</div>
+
+			</div>
+
+			<div id="content2" class="content">
+
+				<div  class="SliderTextContent">
+
+					<h1 >Creative Data Visualization</h1>
+
+					<p>We develop beautiful interactive widgets, graphs and other feature rich 
+
+					data visualization modules to suite your business needs. Our designers 
+
+					and developers have a great expertise in visualizing data for Adobe Flash,Adobe Flex,HTML and for Mobile applications.</p>
+
+					<p>Our Services include; 
+
+						<br/>
+
+						<ul>
+
+							<li>Widgets for Flash, Flex and for Mobile applications</li>
+
+							<li>Javascript widgets</li>
+
+							<li>Customised Interactive dashboards for Flash and flex aplications</li>
+
+						</ul>
+
+						<p>Do You want to know more?...<a href="contact.html">Contact Us..</a></p>
+
+					</p>
+
+						
+
+				</div>
+
+				<div class="bannerImage">
+
+					<img src="assets/slider2.png">
+
+				</div>
+
+			</div>
+
+			<div id="content3" class="content">
+
+				<div class="bannerImage">
+
+					<img src="assets/slider3.png">
+
+				</div>
+
+				<div  class="SliderTextContent">
+
+					<h1 >2D/3D Interactive animation</h1>
+
+					<p>We claim to be one of the best 3d interactive animation specialists in the industry. We have developed many beautiful interactive animated applications which are acclaimed worldwide.</p>
+
+					<p>Our Services include; 
+
+						<br/>
+
+						<ul>
+
+							<li>3d Visualisation</li>
+
+							<li>HVAC animations</li>
+
+							<li>3d modelling</li>
+
+							<li>2d flash animations</li>
+
+						</ul>
+
+						<p>Do You want to know more?...<a href="contact.html">Contact Us..</a></p>
+
+					</p>
+
+						
+
+				</div>
+
+				
+
+			</div>
+
+		</div>
+
+		
+
+	</div>
+
+	
+
+</div>
+
+
+
+<div id="contentHome">
+
+	<div id="subHeader">
+
+		<div width="984px">
+
+			<img src="assets/subHeader1.png" />
+
+			<p>Our GreenBrik dashboard solution enables you to quickly and easily build custom interfaces, 
+
+			dashboards and intelligent widgets with performance metrics for your business. 
+
+			GreenBrik team is an expert in providing energy saving solutions for your buildings. 
+
+			You can view key performance indicators with high quality, visually appealing and most informative widgets,
+
+			and graphs on GreenBrik Dashboard.</p>
+
+			<p>GreenBrik Dashboards include;
+
+				<ol>
+
+					<li>Executive dashboards</li>
+
+					<li>Energy dashboards</li>
+
+					<li>Facility Management dashboards</li>
+
+					<li>Analytical dashboards</li>
+
+				</ol>
+
+				<a style="color: #FF8800; text-decoration: none; font-size: 14px; padding-left: 30px;" href="greenbrik.html">know more...</a>
+
+						
+
+			<br/>
+
+			<br/>
+
+			<br/>
+
+			<br/>
+
+			
+
+			</p>
+
+			
+
+			<div>
+
+				<img id="subBanner1" class="bannerImage1" src="assets/greenBrik1.png">
+
+				<img  id="subBanner2" class="bannerImage1" src="assets/greenBrik2.png">
+
+				<img  id="subBanner3" class="bannerImage1" src="assets/greenBrik3.png">
+
+				<img  id="subBanner4" class="bannerImage1" src="assets/greenBrik4.png">
+
+				<img  id="subBanner5" class="bannerImage1" src="assets/greenBrik5.png">
+
+			</div>
+
+			<div width="984px">
+
+					<div style="position: absolute; right: 30px; paddding-top: 30px;">
+
+						<img class="navImage1" onClick="scrollUp();" src="assets/scrollTop.png"/>
+
+					</div>
+
+			</div>
+
+			<br/>
+
+			<br/>
+
+			
+
+			<br/>
+
+			
+
+			
+
+		</div>
+
+		<div width="984px">
+
+			<img src="assets/subHeader2.png" />
+
+			<div width="984px" style="overflow: hidden;">
+
+				<div style="position: absolute; right: 0px; paddding-top: 30px;">
+
+					
+
+					<br/>
+
+					<br/>
+
+					<img id="subBanner1" src="assets/greenBrik6.png">
+
+					
+
+				</div>
+
+				<p>
+
+				Innobuild solutions are specifically designed for your Home and Building automation systems. 
+
+				Whether be it�s HVAC animation or alarm visualization of a building, we have tailored, 
+
+				efficient solutions for your needs. We build custom user interfaces and animations for HVAC�s, power meters, 
+
+				Life safety systems and for other systems inside your building.
+
+				</p>
+
+				
+
+				<p>
+
+					Our InnoBuild solutions provide;
+
+					<ol>
+
+						<li>Customised interactive HVAC animations</li>
+
+						<li>Building management System dashboards</li>
+
+						<li>Building alarm visualization.</li>
+
+						<li>Facility management applications</li>
+
+						
+
+					</ol>
+
+					<a style="color: #FF8800; text-decoration: none; font-size: 14px; padding-left: 30px;" href="innobuild.html">know more...</a>
+
+					<br/>
+
+				</p>
+
+				<br/>
+
+				<br/>
+
+				<br/>
+
+				<br/>
+
+				<br/>
+
+				<br/>
+
+				<div width="984px">
+
+					<div style="position: absolute; right: 30px; paddding-top: 30px;">
+
+						<img class="navImage1" onClick="scrollUp();" src="assets/scrollTop.png"/>
+
+					</div>
+
+				</div>
+
+				
+
+				
+
+				
+
+			</div>
+
+			
+
+				
+
+		</div>
+
+		<div id="footerText">
+
+			<p>
+
+				<br/>
+
+				<br/>
+
+				Copyright &copy; 2011 InnoBrik Software Technologies Private Limited.
+
+	
+
+			</p>
+
+					
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+<div id="headerBg" >
+
+	
+
+</div>
+
+<div id="arrowNext">
+
+	<img id="next" class="navImage" src="assets/next.png"/>
+
+
+
+</div>
+
+<div id="arrowPrev" >
+
+	<img id="prev" class="navImage" src="assets/prev.png"/>
+
+
+
+</div>
+
+<div id="pauseButton">
+
+</div>
+
+<div id="runButton">
+
+</div>
+
+<div id="navBg">
+
+	<div id="navBgInner">
+
+		<ul class="dropdown dropdown-horizontal">
+
+	
+
+			<li><a href="index.html">Home</a></li>
+
+			<li><a href="greenbrik.html">GreenBrik Dashboard</a>
+
+				
+
+			</li>
+
+			<li><a href="interface.html" class="dir">User Interface</a>
+
+				<ul>
+
+					<li><a href="interface.html?param=datavis">Creative Data Visualisation</a></li>
+
+					<li><a href="interface.html?param=flex">Flex/Flash applications</a></li>
+
+					<li><a href="interface.html?param=iphone">Ipad/Iphone applications</a></li>
+
+					<li><a href="interface.html?param=android">Android applications</a></li>
+
+					<li><a href="interface.html?param=web">Web applications</a></li>
+
+				</ul>
+
+			</li>
+
+			<li><a href="3dinteractive.html" class="dir">3d Interactive</a>
+
+				<ul>
+
+					<li><a href="3dinteractive.html?param=industrial">Industrial animation</a></li>
+
+					<li><a href="3dinteractive.html?param=HVAC">HVAC animations</a></li>
+
+					<li><a href="3dinteractive.html?param=3d">3d Architecture</a></li>
+
+				</ul>
+
+			</li>
+
+	
+
+			<li><a href="contact.html">Contact Us</a></li>
+
+		</ul>
+
+	</div>
+
+	
+
+</div>
+<div id="googleLike" style="z-index: 499;position: absolute;width: 100%; top: 5px;">
+	<div style="width: 960px; margin: 0 auto; position: relative;color: #dedede;text-align: right;">
+		<div style="position: absolute; right: 0px;">
+			<div id="fb-root"></div>
+				<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+				<fb:like href="www.innobrik.com" send="true" width="450" show_faces="true" font="arial"></fb:like>
+		
+			
+		</div>	
+		<div style="position: absolute; right: 0px;">
+			<g:plusone></g:plusone>
+
+			<!-- Place this tag after the last plusone tag -->
+			<script type="text/javascript">
+			(function() {
+				var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+				po.src = 'https://apis.google.com/js/plusone.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+			})();
+			</script>
+		</div>
+		<!-- Place this tag where you want the +1 button to render -->
+		<div style="position: absolute; right: 140px;">
+			<a href="http://twitter.com/InnoBrik" class="twitter-follow-button" data-show-count="false">Follow @InnoBrik</a>
+			<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+		</div>
+
+	</div>
+	
+	
+</div>
+</body>
+
+
+
+</html>

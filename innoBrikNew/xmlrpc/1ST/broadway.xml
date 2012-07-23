@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<mpxconfig node_version='3.1.2(6)'>
+  <node name='/' node_id='9207884a-9ca2-44ac-800a-6b91f2be7ba7' module=''  config_builder=''  inherant='false' description='NBM-2500 / NBM-5000'>
+    <node name='aliases' node_id='480' module='mpx.service.aliases.factory'  config_builder=''  inherant='true' description='aka shortcuts, nicknames and links'>
+      <config>
+        <property name='__type__' value='point'/>
+        <property name='priority' value='2'/>
+      </config>
+      <node name='VODAFONE' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+        <config>
+          <property name='__type__' value='point'/>
+          <property name='node_url' value='None'/>
+        </config>
+        <node name='PUNE' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+          <config>
+            <property name='__type__' value='point'/>
+            <property name='node_url' value='None'/>
+          </config>
+          <node name='EON' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+            <config>
+              <property name='__type__' value='point'/>
+              <property name='node_url' value='None'/>
+            </config>
+            <node name='1ST_FLOOR' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+              <config>
+                <property name='__type__' value='point'/>
+                <property name='node_url' value='None'/>
+              </config>
+              <node name='LIGHTING' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+                <config>
+                  <property name='__type__' value='point'/>
+                  <property name='node_url' value='None'/>
+                </config>
+                <node name='SWITCHING' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+                  <config>
+                    <property name='__type__' value='point'/>
+                    <property name='node_url' value='None'/>
+                  </config>
+                  <node name='LDB_1_LIGHTING_ON_OFF' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+                    <config>
+                      <property name='__type__' value='point'/>
+                      <property name='node_url' value='None'/>
+                    </config>
+                    <node name='WS_H2_90_TO_H2_121_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6002/4/2'/>
+                      </config>
+                    </node>
+                    <node name='WS_H2_97_TO_H2_123_LIGHT ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6002/4/3'/>
+                      </config>
+                    </node>
+                    <node name='WS_H2_98_TO_H2_134_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6002/4/4'/>
+                      </config>
+                    </node>
+                    <node name='WS_H2_105_TO_H2_135_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6002/4/5'/>
+                      </config>
+                    </node>
+                    <node name='WS_H2_106_TO_H2_144_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6002/4/6'/>
+                      </config>
+                    </node>
+                    <node name='WS_H2_113_TO_H2_145_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6002/4/7'/>
+                      </config>
+                    </node>
+                    <node name='WS_H2_114_TO_H2_157_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6002/4/8'/>
+                      </config>
+                    </node>
+                    <node name='PASS_NR_WS_H2_TO_H2_157_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6003/4/1'/>
+                      </config>
+                    </node>
+                    <node name='BREAKAREA_COVE_AND_GRAZER_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6003/4/3'/>
+                      </config>
+                    </node>
+                    <node name='FIRE_EXIT_DECORATIVE_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6003/4/4'/>
+                      </config>
+                    </node>
+                    <node name='BREAKAREA_SPOT_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6003/4/5'/>
+                      </config>
+                    </node>
+                    <node name='ABOVE_LDB1_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6003/4/6'/>
+                      </config>
+                    </node>
+                  </node>
+                  <node name='LDB_2_LIGHTING_ON_OFF' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+                    <config>
+                      <property name='__type__' value='point'/>
+                      <property name='node_url' value='None'/>
+                    </config>
+                    <node name='WS_H1_167_NEAR_PASSAGE_LIGHT ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6006/4/1'/>
+                      </config>
+                    </node>
+                    <node name='WS_H1_162_TO_H1_166_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6006/4/2'/>
+                      </config>
+                    </node>
+                    <node name='WS_H1_156_TO_H1_161_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6006/4/4'/>
+                      </config>
+                    </node>
+                    <node name='WS_H1_150_TO_H1_155_SPOT_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6006/4/5'/>
+                      </config>
+                    </node>
+                    <node name='WS_H1_143_TO_H1_149_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6006/4/6'/>
+                      </config>
+                    </node>
+                    <node name='WS_H1_131_TO_H1_137_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6006/4/8'/>
+                      </config>
+                    </node>
+                    <node name='FRANKLIN_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6007/4/3'/>
+                      </config>
+                    </node>
+                    <node name='CABIN_NO_101_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6007/4/4'/>
+                      </config>
+                    </node>
+                    <node name='CABIN_NO_102_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6007/4/5'/>
+                      </config>
+                    </node>
+                    <node name='CV_RAMAN_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6007/4/6'/>
+                      </config>
+                    </node>
+                  </node>
+                  <node name='LDB_3_LIGHTING_ON_OFF' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+                    <config>
+                      <property name='__type__' value='point'/>
+                      <property name='node_url' value='None'/>
+                    </config>
+                    <node name='INFRT_OF_EINSTEIN_SPOT_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6009/4/1'/>
+                      </config>
+                    </node>
+                    <node name='NR_BUISNESS_CENTRE_COVE_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6009/4/2'/>
+                      </config>
+                    </node>
+                    <node name='EINSTEIN_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6009/4/3'/>
+                      </config>
+                    </node>
+                    <node name='EDISON_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6009/4/4'/>
+                      </config>
+                    </node>
+                    <node name='ABOVE_EDISON_COVE_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6009/4/5'/>
+                      </config>
+                    </node>
+                    <node name='WS_H1_17_TO_H1_20_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6009/4/6'/>
+                      </config>
+                    </node>
+                    <node name='WS_H1_09_TO_H1_16_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6009/4/7'/>
+                      </config>
+                    </node>
+                    <node name='WS_H1_01_TO_H1_08_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6009/4/8'/>
+                      </config>
+                    </node>
+                    <node name='PANTRY_BEHIND_GALILEO_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6010/4/1'/>
+                      </config>
+                    </node>
+                    <node name='ABOVE_GALILEO_ROOM_COVE_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6010/4/2'/>
+                      </config>
+                    </node>
+                    <node name='NEWTON_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6010/4/4'/>
+                      </config>
+                    </node>
+                    <node name='GALILEO_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6010/4/5'/>
+                      </config>
+                    </node>
+                  </node>
+                  <node name='LDB_4_LIGHTING_ON_OFF' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+                    <config>
+                      <property name='__type__' value='point'/>
+                      <property name='node_url' value='None'/>
+                    </config>
+                    <node name='WS_H1_125_TO_H1_59_SPOT_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6012/4/1'/>
+                      </config>
+                    </node>
+                    <node name='WS_H1_59_TO_H1_66_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6012/4/2'/>
+                      </config>
+                    </node>
+                    <node name='WS_H1_67_TO_H1_77_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6012/4/3'/>
+                      </config>
+                    </node>
+                    <node name='WS_H1_78_TO_H1_93_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6012/4/4'/>
+                      </config>
+                    </node>
+                    <node name='WS_H1_102_TO_H1_117_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6012/4/5'/>
+                      </config>
+                    </node>
+                    <node name='WS_H1_118_TO_H1_125_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6012/4/6'/>
+                      </config>
+                    </node>
+                    <node name='BUISNESS_CENTRE_102_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6014/4/2'/>
+                      </config>
+                    </node>
+                    <node name='ABOVE_EXT_TOILET_COVE_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6014/4/3'/>
+                      </config>
+                    </node>
+                    <node name='OUT_EXT_TOILET_DECORATIVE_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6014/4/4'/>
+                      </config>
+                    </node>
+                    <node name='MAIN_PASSAGE_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6014/4/5'/>
+                      </config>
+                    </node>
+                    <node name='ARYBHATTA_ROOM_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6014/4/6'/>
+                      </config>
+                    </node>
+                    <node name='WS_H1_24_TO_H1_31_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6014/4/7'/>
+                      </config>
+                    </node>
+                    <node name='WS_H1_32_TO_H1_40_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6014/4/8'/>
+                      </config>
+                    </node>
+                    <node name='WS_H1_41_TO_H1_49_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6015/4/1'/>
+                      </config>
+                    </node>
+                    <node name='WS_H1_50_TO_H1_58_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6015/4/2'/>
+                      </config>
+                    </node>
+                    <node name='INFRT_OF_ARYBHATTA_SPOT_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6015/4/3'/>
+                      </config>
+                    </node>
+                    <node name='ABOVE_ARYBHATTA_RM_COVE_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6015/4/4'/>
+                      </config>
+                    </node>
+                    <node name='BEHIND_ARYBHATTA_RM_PANTRY_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6015/4/5'/>
+                      </config>
+                    </node>
+                  </node>
+                  <node name='LDB_5_LIGHTING_ON_OFF' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+                    <config>
+                      <property name='__type__' value='point'/>
+                      <property name='node_url' value='None'/>
+                    </config>
+                    <node name='BREAKAREA_NR_FIRE_EXIT_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6016/4/1'/>
+                      </config>
+                    </node>
+                    <node name='RECREATION_ROOM_SPOT_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6016/4/2'/>
+                      </config>
+                    </node>
+                    <node name='RECREATION_AREA_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6016/4/3'/>
+                      </config>
+                    </node>
+                    <node name='ABOVE_LDB5_SPOT_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6018/4/1'/>
+                      </config>
+                    </node>
+                    <node name='ABOVE_LDB5_COVE_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6018/4/2'/>
+                      </config>
+                    </node>
+                    <node name='NEAR_WS_H2_27_SPOT_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6018/4/3'/>
+                      </config>
+                    </node>
+                    <node name='WS_H2_18_TO_H2_27_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6018/4/4'/>
+                      </config>
+                    </node>
+                    <node name='WS_H2_9_TO_H2_17_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6018/4/5'/>
+                      </config>
+                    </node>
+                    <node name='WS_H2_1_TO_H2_8_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6018/4/6'/>
+                      </config>
+                    </node>
+                    <node name='RECREATION_LIGHT_1' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6018/4/7'/>
+                      </config>
+                    </node>
+                    <node name='RECREATION_LIGHT_2' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6018/4/8'/>
+                      </config>
+                    </node>
+                    <node name='WS_H2_28_TO_H2_89_SPOT_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6019/4/1'/>
+                      </config>
+                    </node>
+                    <node name='WS_H2_74_TO_H2_89_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6019/4/2'/>
+                      </config>
+                    </node>
+                    <node name='WS_H2_73_TO_H2_59_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6019/4/3'/>
+                      </config>
+                    </node>
+                    <node name='WS_H2_43_TO_H2_58_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6019/4/4'/>
+                      </config>
+                    </node>
+                    <node name='WS_H2_28_TO_H2_42_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6019/4/5'/>
+                      </config>
+                    </node>
+                    <node name='ABOVE_RECREATION_COVE_LIGHT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6019/4/6'/>
+                      </config>
+                    </node>
+                    <node name='MAIN_PASSAGE_SPOT_LIGHT1' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6019/4/7'/>
+                      </config>
+                    </node>
+                    <node name='MAIN_PASSAGE_SPOT_LIGHT2' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6019/4/8'/>
+                      </config>
+                    </node>
+                  </node>
+                </node>
+                <node name='DIMMING' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+                  <config>
+                    <property name='__type__' value='point'/>
+                    <property name='node_url' value='None'/>
+                  </config>
+                  <node name='FRANKLIN_LIGHT_DIMMER' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                    <config>
+                      <property name='__type__' value='point'/>
+                      <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6006/1/1'/>
+                    </config>
+                  </node>
+                  <node name='CV_RAMAN_LIGHT_DIMMER' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                    <config>
+                      <property name='__type__' value='point'/>
+                      <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6006/1/2'/>
+                    </config>
+                  </node>
+                  <node name='ARCHIMEDES_LIGHT_DIMMER' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                    <config>
+                      <property name='__type__' value='point'/>
+                      <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6012/1/1'/>
+                    </config>
+                  </node>
+                  <node name='ARYBHATTA_LIGHT_DIMMER' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                    <config>
+                      <property name='__type__' value='point'/>
+                      <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6012/1/2'/>
+                    </config>
+                  </node>
+                  <node name='NEWTON_LIGHT_DIMMER' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                    <config>
+                      <property name='__type__' value='point'/>
+                      <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6010/1/1'/>
+                    </config>
+                  </node>
+                  <node name='GALILEO_LIGHT_DIMMER' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                    <config>
+                      <property name='__type__' value='point'/>
+                      <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6010/1/2'/>
+                    </config>
+                  </node>
+                  <node name='EDISON_LIGHT_DIMMER' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                    <config>
+                      <property name='__type__' value='point'/>
+                      <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6010/1/3'/>
+                    </config>
+                  </node>
+                  <node name='EINSTEIN_LIGHT_DIMMER' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                    <config>
+                      <property name='__type__' value='point'/>
+                      <property name='node_url' value='/services/network/BACnet/internetwork/Devices/6010/1/4'/>
+                    </config>
+                  </node>
+                </node>
+              </node>
+              <node name='ELECTRICAL' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+                <config>
+                  <property name='__type__' value='point'/>
+                  <property name='node_url' value='None'/>
+                </config>
+                <node name='UPS' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+                  <config>
+                    <property name='__type__' value='point'/>
+                    <property name='node_url' value='None'/>
+                  </config>
+                  <node name='UPS_2' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+                    <config>
+                      <property name='__type__' value='point'/>
+                      <property name='node_url' value='None'/>
+                    </config>
+                    <node name='Battery_Condition' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Battery_Condition'/>
+                      </config>
+                    </node>
+                    <node name='Battery_Status' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Battery_Status'/>
+                      </config>
+                    </node>
+                    <node name='Battery_Charge' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Battery_Charge'/>
+                      </config>
+                    </node>
+                    <node name='Battery_Voltage_1' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Battery_Voltage_1'/>
+                      </config>
+                    </node>
+                    <node name='Battery_current_1' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Battery_current_1'/>
+                      </config>
+                    </node>
+                    <node name='Battery_Temperature' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Battery_Temperature'/>
+                      </config>
+                    </node>
+                    <node name='Battery_Voltage_2' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Battery_Voltage_2'/>
+                      </config>
+                    </node>
+                    <node name='Battery_current_2' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Battery_current_2'/>
+                      </config>
+                    </node>
+                    <node name='Total_Minutes_on_Battery' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Total_Minutes_on_Battery'/>
+                      </config>
+                    </node>
+                    <node name='Input_Power_Factor' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Input_Power_Factor'/>
+                      </config>
+                    </node>
+                    <node name='Input_frequency_A' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Input_frequency_A'/>
+                      </config>
+                    </node>
+                    <node name='Input_Voltage_A' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Input_Voltage_A'/>
+                      </config>
+                    </node>
+                    <node name='Input_Current_A' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Input_Current_A'/>
+                      </config>
+                    </node>
+                    <node name='Input_Power_A' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Input_Power_A'/>
+                      </config>
+                    </node>
+                    <node name='Input_current_Apparent' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Input_current_Apparent'/>
+                      </config>
+                    </node>
+                    <node name='Input_Voltage_a_to_Neutral' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Input_Voltage_a_to_Neutral'/>
+                      </config>
+                    </node>
+                    <node name='Input_Frequency_B' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Input_Frequency_B'/>
+                      </config>
+                    </node>
+                    <node name='Input_Voltage_B' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Input_Voltage_B'/>
+                      </config>
+                    </node>
+                    <node name='Input_Current_B' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Input_Current_B'/>
+                      </config>
+                    </node>
+                    <node name='Input_Power_B' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Input_Power_B'/>
+                      </config>
+                    </node>
+                    <node name='Input_Apparent_Power_phase_B' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Input_Apparent_Power_phase_B'/>
+                      </config>
+                    </node>
+                    <node name='Input_Voltage_B_to_Neutral' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Input_Voltage_B_to_Neutral'/>
+                      </config>
+                    </node>
+                    <node name='Input_Frequency_C' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Input_Frequency_C'/>
+                      </config>
+                    </node>
+                    <node name='Input_Voltage_C' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Input_Voltage_C'/>
+                      </config>
+                    </node>
+                    <node name='Input_Current_C' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Input_Current_C'/>
+                      </config>
+                    </node>
+                    <node name='Input_Power_C' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Input_Power_C'/>
+                      </config>
+                    </node>
+                    <node name='Input_Apparent_Power_phase_C' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Input_Apparent_Power_phase_C'/>
+                      </config>
+                    </node>
+                    <node name='Input_Voltage_C_to_Neutral' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Input_Voltage_C_to_Neutral'/>
+                      </config>
+                    </node>
+                    <node name='Output_Source' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Source'/>
+                      </config>
+                    </node>
+                    <node name='Output_Frequency' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Frequency'/>
+                      </config>
+                    </node>
+                    <node name='Output_Power_Factor' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Power_Factor'/>
+                      </config>
+                    </node>
+                    <node name='Output_Voltage_A' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Voltage_A'/>
+                      </config>
+                    </node>
+                    <node name='Output_Current_A' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Current_A'/>
+                      </config>
+                    </node>
+                    <node name='Output_Power_A' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Power_A'/>
+                      </config>
+                    </node>
+                    <node name='Output_Load_A' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Load_A'/>
+                      </config>
+                    </node>
+                    <node name='Output_Apparent_power_A' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Apparent_power_A'/>
+                      </config>
+                    </node>
+                    <node name='Output_Voltage_A_to_Neutral' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Voltage_A_to_Neutral'/>
+                      </config>
+                    </node>
+                    <node name='Output_Voltage_B' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Voltage_B'/>
+                      </config>
+                    </node>
+                    <node name='Output_Current_B' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Current_B'/>
+                      </config>
+                    </node>
+                    <node name='Output_Power_B' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Power_B'/>
+                      </config>
+                    </node>
+                    <node name='Output_Load_B' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Load_B'/>
+                      </config>
+                    </node>
+                    <node name='Output_Apparent_power_B' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Apparent_power_B'/>
+                      </config>
+                    </node>
+                    <node name='Output_Voltage_B_to_Neutral' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Voltage_B_to_Neutral'/>
+                      </config>
+                    </node>
+                    <node name='Output_Voltage_C' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Voltage_C'/>
+                      </config>
+                    </node>
+                    <node name='Output_Current_C' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Current_C'/>
+                      </config>
+                    </node>
+                    <node name='Output_Power_C' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Power_C'/>
+                      </config>
+                    </node>
+                    <node name='Output_Load_C' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Load_C'/>
+                      </config>
+                    </node>
+                    <node name='Output_Apparent_power_C' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Apparent_power_C'/>
+                      </config>
+                    </node>
+                    <node name='Output_Voltage_C_to_Neutral' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Output_Voltage_C_to_Neutral'/>
+                      </config>
+                    </node>
+                    <node name='INVERTER_OT' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/INVERTER_OT'/>
+                      </config>
+                    </node>
+                    <node name='BATTERY_LOW_PREALARM_TRIP' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/BATTERY_LOW_PREALARM_TRIP'/>
+                      </config>
+                    </node>
+                    <node name='General_Alarm_16' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/General_Alarm_16'/>
+                      </config>
+                    </node>
+                    <node name='Alarm_Temperature' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Alarm_Temperature'/>
+                      </config>
+                    </node>
+                    <node name='Alarm_UPS_Shutdown' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Alarm_UPS_Shutdown'/>
+                      </config>
+                    </node>
+                    <node name='Alarm_General_Fault' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_2/Alarm_General_Fault'/>
+                      </config>
+                    </node>
+                  </node>
+                  <node name='UPS_1' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+                    <config>
+                      <property name='__type__' value='point'/>
+                      <property name='node_url' value='None'/>
+                    </config>
+                    <node name='Battery_Condition' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_1/Battery_Condition'/>
+                      </config>
+                    </node>
+                    <node name='Battery_Status' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_1/Battery_Status'/>
+                      </config>
+                    </node>
+                    <node name='Battery_Charge' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_1/Battery_Charge'/>
+                      </config>
+                    </node>
+                    <node name='Battery_Voltage_1' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_1/Battery_Voltage_1'/>
+                      </config>
+                    </node>
+                    <node name='Battery_current_1' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_1/Battery_current_1'/>
+                      </config>
+                    </node>
+                    <node name='Battery_Temperature' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_1/Battery_Temperature'/>
+                      </config>
+                    </node>
+                    <node name='Battery_Voltage_2' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_1/Battery_Voltage_2'/>
+                      </config>
+                    </node>
+                    <node name='Battery_current_2' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_1/Battery_current_2'/>
+                      </config>
+                    </node>
+                    <node name='Total_Minutes_on_Battery' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_1/Total_Minutes_on_Battery'/>
+                      </config>
+                    </node>
+                    <node name='Input_Power_Factor' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_1/Input_Power_Factor'/>
+                      </config>
+                    </node>
+                    <node name='Input_frequency_A' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_1/Input_frequency_A'/>
+                      </config>
+                    </node>
+                    <node name='Input_Voltage_A' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/interfaces/com4/modbus/Ups_1/Input_Voltage_A'/>
+                      </config>
+                    </node>
+                    <node name='Input_Current_A' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <co

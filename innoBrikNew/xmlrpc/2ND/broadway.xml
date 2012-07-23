@@ -1,0 +1,277 @@
+<mpxconfig node_version='3.02d6'>
+  <node name='/' node_id='9207884a-9ca2-44ac-800a-6b91f2be7ba7' module=''  config_builder=''  inherant='false' description='NBM-2500 / NBM-5000'>
+    <node name='aliases' node_id='480' module='mpx.service.aliases.factory'  config_builder=''  inherant='true' description='aka shortcuts, nicknames and links'>
+      <config>
+        <property name='__type__' value='point'/>
+        <property name='priority' value='2'/>
+      </config>
+      <node name='VODAFONE' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+        <config>
+          <property name='__type__' value='point'/>
+          <property name='node_url' value='None'/>
+        </config>
+        <node name='PUNE' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+          <config>
+            <property name='__type__' value='point'/>
+            <property name='node_url' value='None'/>
+          </config>
+          <node name='EON' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+            <config>
+              <property name='__type__' value='point'/>
+              <property name='node_url' value='None'/>
+            </config>
+            <node name='2ND_FLOOR' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+              <config>
+                <property name='__type__' value='point'/>
+                <property name='node_url' value='None'/>
+              </config>
+              <node name='LIGHTING' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+                <config>
+                  <property name='__type__' value='point'/>
+                  <property name='node_url' value='None'/>
+                </config>
+                <node name='SWITCHING' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+                  <config>
+                    <property name='__type__' value='point'/>
+                    <property name='node_url' value='None'/>
+                  </config>
+                  <node name='LDB_1_LIGHTING_ON_OFF' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+                    <config>
+                      <property name='__type__' value='point'/>
+                      <property name='node_url' value='None'/>
+                    </config>
+                    <node name='WORKSTATION_291_TO_296_FITTINGS ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2007/4/1'/>
+                      </config>
+                    </node>
+                    <node name='PASSAGE_OUTSIDE_MEETING_ROOM_2_03_AND_2_04 ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2007/4/2'/>
+                      </config>
+                    </node>
+                    <node name='WORKSTATION_254_TO_265_FITTINGS ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2007/4/3'/>
+                      </config>
+                    </node>
+                    <node name='WORKSTATION_243_TO_253_FITTINGS ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2007/4/4'/>
+                      </config>
+                    </node>
+                    <node name='WORKSTATION_271_TO_276_FITTINGS ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2007/4/5'/>
+                      </config>
+                    </node>
+                    <node name='WORKSTATION_277_TO_287_FITTINGS ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2007/4/6'/>
+                      </config>
+                    </node>
+                    <node name='OUTSIDE_CABIN_2_09_AND_2_10_WORKSTATION_AREA ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2007/4/7'/>
+                      </config>
+                    </node>
+                    <node name='CABIN_209' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2007/4/8'/>
+                      </config>
+                    </node>
+                    <node name='BREAKOUT_AREA_COVE ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2008/4/1'/>
+                      </config>
+                    </node>
+                    <node name='BREAKOUT_AREA_GRAZER ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2008/4/2'/>
+                      </config>
+                    </node>
+                    <node name='OUTSIDE_MEETING_ROOM_2_03_AND_2_04_COVE ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2008/4/3'/>
+                      </config>
+                    </node>
+                    <node name='OUTSIDE_MEETING_ROOM_2_03_AND_2_04_COVE ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2008/4/4'/>
+                      </config>
+                    </node>
+                    <node name='CABIN_210' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2008/4/5'/>
+                      </config>
+                    </node>
+                  </node>
+                  <node name='LDB_2_LIGHTING_ON_OFF' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+                    <config>
+                      <property name='__type__' value='point'/>
+                      <property name='node_url' value='None'/>
+                    </config>
+                    <node name='BREAK_AREA_BEHIND_RECEPTION ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2001/4/1'/>
+                      </config>
+                    </node>
+                    <node name='GRAZER_LIGHT_BEHIND_RECEPTION_COVE_LIGHT ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2001/4/4'/>
+                      </config>
+                    </node>
+                    <node name='CABIN_2_07_LIGHTS ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2001/4/7'/>
+                      </config>
+                    </node>
+                    <node name='CABIN_2_08__LIGHTS ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2002/4/2'/>
+                      </config>
+                    </node>
+                    <node name='WORKSTATION_239_TO_242_FITTINGS ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2002/4/3'/>
+                      </config>
+                    </node>
+                    <node name='WORKSTATION_216_TO_221_FITTINGS ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2002/4/4'/>
+                      </config>
+                    </node>
+                    <node name='WORKSTATION_210_TO_215_FITTINGS ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2002/4/5'/>
+                      </config>
+                    </node>
+                    <node name='WORKSTATION_233_TO_238_FITTINGS ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2002/4/6'/>
+                      </config>
+                    </node>
+                    <node name='WORKSTATION_204_TO_208_FITTINGS ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2002/4/7'/>
+                      </config>
+                    </node>
+                    <node name='WORKSTATION_199_TO_203_FITTINGS ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2002/4/8'/>
+                      </config>
+                    </node>
+                    <node name='CABIN_207_AND_208_COVE_LIGHT ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2003/4/1'/>
+                      </config>
+                    </node>
+                    <node name='WORKSTATION_227_TO_232_FITTINGS ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2003/4/2'/>
+                      </config>
+                    </node>
+                  </node>
+                  <node name='LDB_3_LIGHTING_ON_OFF' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+                    <config>
+                      <property name='__type__' value='point'/>
+                      <property name='node_url' value='None'/>
+                    </config>
+                    <node name='UTILITY_AND_PASSAGE_SPOT ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2004/4/1'/>
+                      </config>
+                    </node>
+                    <node name='OUTSIDE_CABIN_1_AND_2_COVE ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2004/4/4'/>
+                      </config>
+                    </node>
+                    <node name='OUTSIDE_CABIN_1_AND_2_SPOT ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2004/4/7'/>
+                      </config>
+                    </node>
+                    <node name='CABIN_202_LIGHTS ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2005/4/2'/>
+                      </config>
+                    </node>
+                    <node name='WORKSTATION_18_TO_20_LIGHTS ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2005/4/5'/>
+                      </config>
+                    </node>
+                    <node name='WORKSTATION_10_TO_17_LIGHTS ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2005/4/8'/>
+                      </config>
+                    </node>
+                    <node name='OUTSIDE_HUB1_COVE ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2006/4/3'/>
+                      </config>
+                    </node>
+                    <node name='CABIN_201_LIGHTS ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2005/4/3'/>
+                      </config>
+                    </node>
+                    <node name='WORKSTATION_06_TO_09_LIGHTS ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2005/4/6'/>
+                      </config>
+                    </node>
+                    <node name='BEHIND_DAFFADIL_AREA_LIGHT ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2005/4/7'/>
+                      </config>
+                    </node>
+                  </node>
+                  <node name='LDB_4_LIGHTING_ON_OFF' node_id='452' module='mpx.service.aliases.factory'  config_builder=''  inherant='false' description='Alias group'>
+                    <config>
+                      <property name='__type__' value='point'/>
+                      <property name='node_url' value='None'/>
+                    </config>
+                    <node name='NEAR_EXECUTIVE_TOILET_DECORATIVE_LIGHT ' node_id='257' module='mpx.service.alias.factory'  config_builder=''  inherant='false' description='Alias (another name for an existing node)'>
+                      <config>
+                        <property name='__type__' value='point'/>
+                        <property name='node_url' value='/services/network/BACnet/internetwork/Devices/2009/4/1'/>
+                      </config>
+                    </node>
+                    <node name='BREAK_OUT_
